@@ -1,0 +1,14 @@
+.landing-page-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 0px;
+    min-height: 900px;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 90%;
+}
