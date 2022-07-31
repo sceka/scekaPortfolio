@@ -1,0 +1,103 @@
+.work-project-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.project-card {
+    background-color: transparent;
+    width: 83%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 210px;
+    align-items: center;
+    border-top: 1px solid rgba(49, 49, 49, 0.6);
+}
+
+.project-card:hover {
+    .arrow-right {
+        margin-right: 40px;
+        transition: ease-in-out 0.3s;
+    }
+    .project-card-desc-title {
+        margin-left: 40px;
+        transition: ease-in-out 0.3s;
+    }
+
+    .project-card-small-desc {
+        margin-left: 40px;
+        transition: ease-in-out 0.3s;
+    }
+}
+
+.project-card-desc-title {
+    font-size: 56px;
+}
+
+.project-card-small-desc {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    width: 270px;
+    justify-content: space-between;
+}
+
+.arrow-right {
+    width: 40px;
+}
+
+.one {
+    background-image: url("../../statics/controller.jpeg");
+}
+.two {
+    background-image: url("../../statics/controller.jpeg");
+}
+.three {
+    background-image: url("../../statics/controller.jpeg");
+}
+.four {
+    background-image: url("../../statics/controller.jpeg");
+}
+
+.five {
+    background-image: url("../../statics/controller.jpeg");
+}
+.six {
+    background-image: url("../../statics/controller.jpeg");
+}
+.hover-reveal {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 400px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(0, -300px);
+    transition: 0.2s ease-out;
+}
+
+.hover-reveal__inner {
+    width: 90%;
+    height: 80%;
+    position: relative;
+    will-change: transform;
+    overflow: hidden;
+}
+
+.hover-reveal__img {
+    background-size: cover;
+    background-position: 50%, 50%;
+    transform-origin: 50% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    will-change: transform;
+    transform: scale(0.8, 0.8);
+    transition: 1.5s transform;
+}

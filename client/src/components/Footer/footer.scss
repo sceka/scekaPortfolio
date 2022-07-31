@@ -31,6 +31,7 @@
     margin-top: 50px;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .marquee {
@@ -38,6 +39,8 @@
     // padding: 90px 20px;
     text-align: center;
     overflow: hidden;
+    background-color: rgba(49, 49, 49, 0.2);
+    display: flex;
 }
 
 .marquee h3 {
@@ -69,15 +72,22 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+}
 
-    button {
-        width: 50%;
-        height: 250px;
-        font-size: 56px;
-        color: white;
-        font-family: Syne, sans-serif;
-        background-color: #0c0e0f;
-        border-right: 1px solid rgba(49, 49, 49, 0.6);
-        border-bottom: 1px solid rgba(49, 49, 49, 0.6);
-    }
+.work-button {
+    width: 50%;
+    height: 250px;
+    font-size: 56px;
+    color: white;
+    z-index: 1;
+    font-family: Syne, sans-serif;
+    background-color: #0c0e0f;
+    border-right: 1px solid rgba(49, 49, 49, 0.6);
+    border-bottom: 1px solid rgba(49, 49, 49, 0.6);
+    cursor: pointer;
+}
+
+.work-button:hover {
+    background-color: rgba(49, 49, 49, 0.6);
+    transition: 0.5s ease-in-out;
 }

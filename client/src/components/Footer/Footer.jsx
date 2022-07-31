@@ -35,9 +35,9 @@ const Footer = () => {
                 </h3>
             </div>
             <div className="last-footer">
-                <button>Work</button>
-                <button>Services</button>
-                <button>About</button>
+                <button className="work-button">Work</button>
+                <button className="work-button">Services</button>
+                <button className="work-button">About</button>
             </div>
             {/* <div style={{ display: "flex", justifyContent: "center" }}>
                 @ Marko Scekic
