@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.scss";
 const Header = () => {
     return (
-        <div className="header-container" style={{ position: "relative" }}>
+        <div className="header-container">
             <div className="header-container-wrapper">
                 <div className="logo">Marko</div>
                 <div className="header-select-bar">

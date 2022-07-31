@@ -1,14 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Syne:wght@700&display=swap");
+
 .landing-page-container {
     position: relative;
     display: grid;
     grid-template-columns: 50% 50%;
     padding-top: 0px;
-    min-height: 900px;
+    // min-height: 900px;
 }
 
 .grid1 {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    width: 90%;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 12%;
+
+    h1 {
+        font-size: 70px;
+        font-family: "Syne", sans-serif;
+        width: 80%;
+        line-height: 1;
+    }
+}
+
+.job-title {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+// .grid2-container {
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+// }
+
+// .swiperslide {
+//     width: 100%;
+//     height: 300px;
+// }
+
+.logo1 {
+    height: 900px;
 }
