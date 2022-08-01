@@ -1,0 +1,21 @@
+.contact-landing-page-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 180px;
+    left: 100px;
+}
+
+.contact-landing-page-title {
+    font-size: 120px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    width: 1100px;
+}
+
+.contact-landing-page-email {
+    font-size: 35px;
+    position: absolute;
+    top: 400px;
+}

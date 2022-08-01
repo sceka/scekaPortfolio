@@ -1,0 +1,41 @@
+.about-me-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-me-text {
+    width: 85%;
+    font-size: 50px;
+    line-height: 1;
+    width: 1300px;
+}
+
+.about-me-container-1 {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.about-me-item {
+    border-bottom: 1px solid grey;
+    width: 620%;
+}
+.about-me-item1 {
+    border-bottom: 1px solid grey;
+    width: 48%;
+    margin-left: 600px;
+}
+
+.about-item {
+    // margin-right: 590px;
+    width: 100%;
+}

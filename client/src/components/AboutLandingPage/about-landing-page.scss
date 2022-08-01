@@ -1,0 +1,52 @@
+.bg {
+    // position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+}
+
+.hero-item {
+    width: 8%;
+    border: 1px solid #181d1f;
+    height: 180px;
+}
+
+.about-hero-line {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.bg1 {
+    position: absolute;
+    width: 468px;
+    height: 365px;
+}
+
+.bg2 {
+    position: absolute;
+    top: 73%;
+    width: 585px;
+    height: 368px;
+}
+
+.about-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    text-align: center;
+    line-height: 1;
+}
+
+.bg3 {
+    position: absolute;
+    left: 69.2%;
+    width: 450px;
+    height: 730px;
+}
