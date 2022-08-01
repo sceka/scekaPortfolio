@@ -35,13 +35,16 @@ const Footer = () => {
                 </h3>
             </div>
             <div className="last-footer">
-                <button className="work-button">Work</button>
-                <button className="work-button">Services</button>
-                <button className="work-button">About</button>
+                <button className="work-button">
+                    <a href="/work">Work</a>
+                </button>
+                <button className="work-button">
+                    <a href="/services">Services</a>
+                </button>
+                <button className="work-button">
+                    <a href="/about">About</a>
+                </button>
             </div>
-            {/* <div style={{ display: "flex", justifyContent: "center" }}>
-                @ Marko Scekic
-            </div> */}
         </div>
     );
 };
